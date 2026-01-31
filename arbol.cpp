@@ -15,7 +15,7 @@ struct Nodo
 {
     Color color;
     T valor;
-    Nodo<T> *izq, *der, *arr; // Quitamos *raiz de aquí, no la necesita el nodo
+    Nodo<T> *izq, *der, *arr; // Quitamos *raiz de aquí, no la necesita el nodo aaaaaaaaaaaaaaaa
 };
 
 template <typename T>
