@@ -65,7 +65,7 @@ int main()
     sf::Text texto(fuente, "Circulos: 0", 30);
     texto.setFillColor(sf::Color::White);
     texto.setPosition({20.f, 20.f});
-    if (!texturaCompartida.loadFromFile("./logoARI.jpeg"))
+    if (!texturaCompartida.loadFromFile("./marco.png"))
     {
         std::cout << "textura cargada";
     }
@@ -78,7 +78,7 @@ int main()
                 window.close();
             }
         }
-        if (Reloj.getElapsedTime().asSeconds() >= 0.01f && listaPelotas.size() < 250)
+        if (Reloj.getElapsedTime().asSeconds() >= 1.0f && listaPelotas.size() < 100)
         {
             float radio = 5.f + (rand() % 40);
             float posx = rand() % VENTANA_ANCHO;

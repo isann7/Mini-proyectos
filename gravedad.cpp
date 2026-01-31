@@ -6,7 +6,7 @@
 
 const int VENTANA_ANCHO = 1080;
 const int VENTANA_ALTO = 720;
-const sf::Vector2f g = {0, 0};
+const sf::Vector2f g = {0, 500};
 
 sf::RenderWindow window(sf::VideoMode({VENTANA_ANCHO, VENTANA_ALTO}), "");
 sf::Clock dt;
